@@ -1,0 +1,16 @@
+{
+  "dataset": "Breast Cancer Wisconsin (Diagnostic), sklearn built-in",
+  "samples": 569,
+  "features": 30,
+  "training_samples": 455,
+  "test_samples": 114,
+  "test_malignant": 42,
+  "test_benign": 72,
+  "positive_class": "malignant (1)",
+  "seed": 42,
+  "cross_validation": "StratifiedKFold, 5 splits, shuffled, training set only",
+  "best_test_f1_models": [
+    "Stacking",
+    "AdaBoost"
+  ]
+}
