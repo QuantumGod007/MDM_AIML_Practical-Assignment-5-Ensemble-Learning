@@ -22,7 +22,7 @@ python -m unittest discover -s tests -v
 ### Results
 Stacking and AdaBoost both got **97.37% accuracy** and **96.30% F1-score** on the held-out test set. Hard voting was simpler, but did not beat those two. I also looked at recall because missing a malignant case matters more than accuracy alone.
 
-![Actual run output](outputs/terminal_output.png)
+[Actual console output](results/console_output.txt)
 ![Model comparison](outputs/model_comparison.png)
 
 More charts: [confusion matrices](outputs/confusion_matrices.png) · [ROC curves](outputs/roc_curves.png) · [class balance](outputs/class_balance.png)
