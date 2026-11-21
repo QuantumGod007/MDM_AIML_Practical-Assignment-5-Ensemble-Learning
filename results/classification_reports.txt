@@ -1,0 +1,66 @@
+Logistic Regression
+===================
+               precision    recall  f1-score   support
+
+   Benign (0)      0.959     0.986     0.973        72
+Malignant (1)      0.975     0.929     0.951        42
+
+     accuracy                          0.965       114
+    macro avg      0.967     0.957     0.962       114
+ weighted avg      0.965     0.965     0.965       114
+
+Decision Tree
+=============
+               precision    recall  f1-score   support
+
+   Benign (0)      0.886     0.972     0.927        72
+Malignant (1)      0.943     0.786     0.857        42
+
+     accuracy                          0.904       114
+    macro avg      0.914     0.879     0.892       114
+ weighted avg      0.907     0.904     0.901       114
+
+KNN
+===
+               precision    recall  f1-score   support
+
+   Benign (0)      0.947     0.986     0.966        72
+Malignant (1)      0.974     0.905     0.938        42
+
+     accuracy                          0.956       114
+    macro avg      0.961     0.945     0.952       114
+ weighted avg      0.957     0.956     0.956       114
+
+Voting (Hard)
+=============
+               precision    recall  f1-score   support
+
+   Benign (0)      0.947     1.000     0.973        72
+Malignant (1)      1.000     0.905     0.950        42
+
+     accuracy                          0.965       114
+    macro avg      0.974     0.952     0.961       114
+ weighted avg      0.967     0.965     0.965       114
+
+Stacking
+========
+               precision    recall  f1-score   support
+
+   Benign (0)      0.960     1.000     0.980        72
+Malignant (1)      1.000     0.929     0.963        42
+
+     accuracy                          0.974       114
+    macro avg      0.980     0.964     0.971       114
+ weighted avg      0.975     0.974     0.973       114
+
+AdaBoost
+========
+               precision    recall  f1-score   support
+
+   Benign (0)      0.960     1.000     0.980        72
+Malignant (1)      1.000     0.929     0.963        42
+
+     accuracy                          0.974       114
+    macro avg      0.980     0.964     0.971       114
+ weighted avg      0.975     0.974     0.973       114
+

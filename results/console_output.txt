@@ -1,0 +1,30 @@
+PRACTICAL 5 — ENSEMBLE LEARNING AND PERFORMANCE EVALUATION
+==================================================================
+Dataset: Breast Cancer Wisconsin (Diagnostic), bundled with scikit-learn
+Rows: 569 | Features: 30 | Train: 455 | Test: 114
+Positive class: malignant (1) | Random seed: 42 | Stratified split: 80/20
+Training-only cross-validation: 5 stratified folds
+
+Fitting Logistic Regression...
+Fitting Decision Tree...
+Fitting KNN...
+Fitting Voting (Hard)...
+Fitting Stacking...
+Fitting AdaBoost...
+
+TEST SET RESULTS (higher is better)
+------------------------------------------------------------------------------------------
+              Model  Accuracy  Precision  Recall    F1  ROC-AUC  CV F1 mean  CV F1 std
+Logistic Regression     0.965      0.975   0.929 0.951    0.996       0.964      0.021
+      Decision Tree     0.904      0.943   0.786 0.857    0.947       0.896      0.032
+                KNN     0.956      0.974   0.905 0.938    0.982       0.957      0.012
+      Voting (Hard)     0.965      1.000   0.905 0.950      N/A       0.957      0.012
+           Stacking     0.974      1.000   0.929 0.963    0.995       0.973      0.020
+           AdaBoost     0.974      1.000   0.929 0.963    0.986       0.961      0.016
+
+N/A for hard voting AUC: the majority-vote output has no continuous score.
+
+Highest test F1: Stacking, AdaBoost (0.963)
+This is a small held-out set: a few cases can change the ranking.
+
+Saved result tables in results/ and four figures in outputs/.
